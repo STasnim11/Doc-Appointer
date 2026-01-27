@@ -1,5 +1,0 @@
--- Create new schema/user
-CREATE USER DOCAPP IDENTIFIED BY MyStrongPassword123;
-
--- Give necessary privileges
-GRANT CONNECT, RESOURCE, CREATE SESSION, CREATE TABLE, CREATE SEQUENCE TO DOCAPP;
